@@ -1,0 +1,5 @@
+setup.py
+NakedRequests.egg-info/PKG-INFO
+NakedRequests.egg-info/SOURCES.txt
+NakedRequests.egg-info/dependency_links.txt
+NakedRequests.egg-info/top_level.txt

@@ -1,3 +1,42 @@
+DOCUMENTATION = '''
+
+module: nr
+
+short_description: This simple module combines the power of requests library and bs4 to make stuff easier
+
+version_added: 0.0.1
+
+author: Ajay Ajith (pro-metheus)
+
+options:  NakedRequests : takes an url as argument 
+          
+          cook_response: returns a get response as done in requests module
+
+
+          analyze: takes an html tag as a string input return a list of such tags in the html file
+
+
+          get_defaults: takes html tag as argument and returns a dictionary of the tah and their default values
+            
+
+          tag_exists: takes a tag as argument and returns a boolean value according to its presence in the html
+
+          download: takes name to be saved as, extension of file, and location to be saved as args and downloads the response content
+
+          get_ext_urls: returns list of external links present in html
+
+
+          selected_defaults: takes tag and names of the tags and return their dictionary of values
+
+          
+
+
+'''
+
+
+
+
+
 import requests
 from bs4 import BeautifulSoup as bs
 
